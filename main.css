@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.countriy-container li:hover {
+  border: 1px solid rgb(213, 245, 245);
+  background-color: rgb(213, 245, 245);
+}
+
+.countriy-container {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.countriy-container li {
+  border-radius: 2%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: all 0.5s;
+  cursor: pointer;
+}
